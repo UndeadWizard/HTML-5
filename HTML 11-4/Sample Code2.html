@@ -1,0 +1,37 @@
+<html>
+<head>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
+</head>
+<body>
+<div id = "main">
+	<nav v-bind:class="active" v-on:click.prevent>
+		<a href="#" class="home" v-on:click="makeActive('home')">Home</a>
+		<a href="#" class="projects" v-on:click="makeActive('projects')">Projects</a>
+		<a href="#" class="services" v-on:click="makeActive('services')">Services</a>
+		<a href="#" class="contact" v-on:click="makeActive('contact')">Contact</a>\
+	</nav>
+	<p>You chose <b>{(active)}</b></p>
+<div>
+<script>
+//Creating a new Vue instance and pass in an objects objects.
+
+var demo=new Vue({
+	//A DOM element to mount our view model.
+	el:'#main',
+	//This is the model.
+	//Define properities and give them inital values.
+	data: {
+		active: 'home'
+	};
+	
+	//Functions we will be using.
+	methods: {
+		makeActive: function(item) {
+			this.active = item;
+		}
+	}
+});
+</script>
+</body>
+</html>
+		
