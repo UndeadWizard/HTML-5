@@ -1,0 +1,204 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+
+.checked {
+  color: orange;
+}
+
+
+h1 {	
+	text-align:center;
+	font-size: 50px;
+}
+
+#humans {
+	margin-left: 12%;
+}
+.forsale {
+	display: flex;
+	padding-top:30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	justify-content: space-between;
+}
+
+.books {
+	flex:1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	max-width: 230px; 
+    height: 280px;
+}
+
+.food {
+	flex:1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	max-width: 230px; 
+    height:280px;
+}
+.music {
+	flex:1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	max-width: 230px; 
+    height:280px;
+}
+.plant {
+	flex:1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	max-width: 230px; 
+    height:280px;
+}
+
+.forsale2 {
+	display: flex;
+	padding-top:30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	justify-content: space-between;
+}
+
+.decor{
+	flex:1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	max-width: 230px; 
+    height:280px;
+}
+
+.computer{
+	flex:1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	max-width: 230px; 
+    height:280px;
+}
+
+.taco{
+	flex:1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	max-width: 230px; 
+    height:280px;
+}
+
+.sport {
+	flex:1;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	max-width: 230px; 
+    height:280px;
+}
+
+#oldp {
+	color: red;
+	text-decoration:line-through;
+	margin-top:3%;
+}
+
+#newp {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left:80%;
+}
+
+#cartbtn {
+	color:white;
+}
+
+nav {
+    padding: 20px 0 40px;
+}
+
+nav .navbar-right {
+    float: right;
+}
+nav ul ul {
+    display: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+.badge {
+    background-color: rgb(50, 183, 219);
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 12px;
+    padding: 6px 7px;
+    text-align: center;
+	margin-left: 3%;
+	margin-top:7%;
+}
+
+.shopping-cart {
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    border-radius: 3px;
+    margin: 20px 0;
+    padding: 10px;
+    position: absolute;
+    width: 320px;
+	right: 0;
+	left: auto;
+}
+
+.shopping-cart .shopping-cart-header {
+	display: flex; /* equal height of the children */
+    border-bottom: 1px solid rgb(232, 232, 232);
+    padding-bottom: 15px;
+}
+
+.shopping-cart-image {
+	margin-left: 10px;
+}
+
+.shopping-cart-quantity {
+	 margin-left: 20%;
+	 flex: 1;
+}
+ .shopping-cart-price {
+	 margin-right: 20%
+ }
+ 
+.shopping-cart::after {
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgb(255, 255, 255);
+    border-width: 8px;
+    bottom: 100%;
+    content: " ";
+    left: 89%;
+    margin-left: -8px;
+    pointer-events: none;
+    width: 0;
+}
+
+.button {
+    display: block;
+    font-size: 16px;
+    margin: 25px 0 15px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.shopping-cart-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+#shopping-cart-imagelist {
+	flex:1;
+}
+
+#shopping-cart-quantitylist {
+	flex: 1;
+}
+
+#shopping-cart-pricelist {
+	flex:1;
+}
