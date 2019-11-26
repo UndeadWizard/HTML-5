@@ -1,0 +1,18 @@
+<html>
+	<script>
+		function student(id,fname,lname,total) {
+			this.id = id;
+			this.fname = fname;
+			this.lname = lname;
+			this.total = total;
+			
+			this.displayDetails = function() {
+				document.write("Student Id: " + this.id+"<br/>");
+				document.write("Name: " + this.fname+ " " + this.lname+"<br/>");
+				document.write("Total: " + total+"<br/>");
+			}
+		}
+		var st1 = new student(1,"John","Smith","100 A");
+		st1.displayDetails();
+	</script>
+</html>
